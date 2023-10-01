@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="loan department">
+	
+	<parameter name="URL" value="sarithaacademy.com"/>
+  
+  <test name="regression">
+	  
+	  
+	  <groups>
+			<run>
+				<include name="smoke"/>
+			</run>
+		</groups>
+		
+	  
+	<classes>
+		
+		<class name="TestNG.tests"/>
+		<class name="TestNG.daytwo"/>
+		
+</classes>  
+	  
+	  
+  </test>
+     <test name="loan">
+		 
+	<classes>
+		<class name="TestNG.tests"/>
+	</classes>	 
+		 
+		 
+		 
+	 </test>
+  
+  
+  
+</suite> <!-- Suite -->
